@@ -1,5 +1,9 @@
 /**
  * Cloudflare User Data.
+ *
+ * Get user trace data with IP, location, user agent, host, visit scheme, etc.
+ *
+ * @author Awais <https://twitter.com/MrAhmadAwais/>
  */
 const hasFetch = require('has-fetch');
 
