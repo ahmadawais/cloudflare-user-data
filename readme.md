@@ -22,7 +22,28 @@ npm install cloudflare-user-data
 ## Usage
 
 ```js
-const cloudflareUserData = require('cloudflare-user-data');
+const cfUserData = require('cloudflare-user-data');
+cfUserData();
+```
+
+### Expected Output
+
+```js
+{
+    ip: "164.140.90.113",
+    loc: "CA",
+    visit_scheme: "https",
+    h: "www.cloudflare.com",
+    http: "http/2",
+    sni: "plaintext",
+	fl: "49f70",
+    tls: "TLSv1.3",
+    ts: "1590691571.506",
+    colo: "MRS",
+    warp: "off",
+    uag: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+}
+
 ```
 
 <br>
