@@ -1,6 +1,6 @@
 {
 	"name": "cloudflare-user-data",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Get user trace data with IP, location, user agent, host, visit scheme, etc.",
 	"license": "MIT",
 	"repository": "ahmadawais/cloudflare-user-data",
