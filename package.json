@@ -1,0 +1,24 @@
+{
+	"name": "cloudflare-user-data",
+	"version": "0.0.1",
+	"description": "Get user trace data with IP, location, user agent, host, visit scheme, etc.",
+	"license": "MIT",
+	"repository": "ahmadawais/cloudflare-user-data",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cloudflare-user-data",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"scripts": {
+		"test": "node test.js"
+	}
+}
