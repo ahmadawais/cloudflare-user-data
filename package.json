@@ -20,5 +20,8 @@
 	],
 	"scripts": {
 		"test": "node test.js"
+	},
+	"dependencies": {
+		"has-fetch": "^1.0.0"
 	}
 }

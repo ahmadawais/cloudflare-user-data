@@ -1,3 +1,6 @@
+const assert = require('assert').strict;
 const cloudflareUserData = require('./index.js');
 
-cloudflareUserData();
+(async () => {
+	assert.strictEqual(undefined, await cloudflareUserData());
+})();
